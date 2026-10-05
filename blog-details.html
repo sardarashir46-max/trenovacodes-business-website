@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <!-- HEAD: basic settings + SEO (title, description, social share tags) -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog Article | TRENOvaCodes</title>
+  <meta name="description" content="Read the latest article from TRENOvaCodes.">
+  <meta property="og:title" content="Blog Article | TRENOvaCodes">
+  <meta property="og:description" content="Read the latest article from TRENOvaCodes.">
+  <!-- THEME: saved theme (light/dark) ko page dikhne se pehle lagata hai. Default dark. -->
+  <script>try{var t=localStorage.getItem('trenova-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-bs-theme',t)}catch(e){}</script>
+  <!-- FONTS: Google Fonts (Sora + Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <!-- CSS: Bootstrap 5 + custom theme (assets/css/style.css) -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="blog-details">
+  <!-- HEADER / NAVBAR: main.js yahan menu banata hai (main.js > SECTION 5) -->
+  <header id="site-header"></header>
+  <main id="main">
+    <!-- PAGE CONTENT: poora article main.js > 9b (?post=...) se banta hai -->
+    <div id="app"></div>
+  </main>
+  <!-- FOOTER: contact form + footer yahan aata hai (main.js > SECTION 6) -->
+  <div id="site-footer"></div>
+  <!-- JS: Bootstrap bundle, phir main.js (saara dynamic content yahan se) -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <!-- HEAD: basic settings + SEO (title, description, social share tags) -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Services | TRENOvaCodes</title>
+  <meta name="description"
+    content="Restaurant POS, retail POS, school ERP, custom business software and mobile app development from TRENOvaCodes.">
+  <meta property="og:title" content="Our Services | TRENOvaCodes">
+  <meta property="og:description"
+    content="Restaurant POS, retail POS, school ERP, custom business software and mobile app development from TRENOvaCodes.">
+  <!-- THEME: saved theme (light/dark) ko page dikhne se pehle lagata hai. Default dark. -->
+  <script>try{var t=localStorage.getItem('trenova-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-bs-theme',t)}catch(e){}</script>
+  <!-- FONTS: Google Fonts (Sora + Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap"
+    rel="stylesheet">
+  <!-- CSS: Bootstrap 5 + custom theme (assets/css/style.css) -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="services">
+  <!-- HEADER / NAVBAR: main.js yahan menu banata hai (main.js > SECTION 5) -->
+  <header id="site-header"></header>
+  <main id="main">
+
+    <section class="bg-surface">
+      <div class="container">
+        <!-- SECTION 1: PAGE TITLE BANNER -->
+        <h1>Our Services</h1>
+        <p class="lead mt-3 col-lg-8">Ready-made systems for restaurants, shops and schools, and custom software for
+          everything else.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <!-- SECTION 2: ALL SERVICES CARDS (main.js > SERVICES data) -->
+        <div class="row g-4" data-services="Learn More"></div>
+      </div>
+    </section>
+    <!-- SECTION 3: CTA BANNER -->
+    <div data-cta></div>
+  </main>
+  <!-- FOOTER: contact form + footer yahan aata hai (main.js > SECTION 6) -->
+  <div id="site-footer"></div>
+  <!-- JS: Bootstrap bundle, phir main.js (saara dynamic content yahan se) -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

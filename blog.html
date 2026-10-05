@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <!-- HEAD: basic settings + SEO (title, description, social share tags) -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | TRENOvaCodes</title>
+  <meta name="description"
+    content="Practical articles on POS, inventory, school ERP and business automation from TRENOvaCodes.">
+  <meta property="og:title" content="Blog | TRENOvaCodes">
+  <meta property="og:description"
+    content="Practical articles on POS, inventory, school ERP and business automation from TRENOvaCodes.">
+  <!-- THEME: saved theme (light/dark) ko page dikhne se pehle lagata hai. Default dark. -->
+  <script>try{var t=localStorage.getItem('trenova-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-bs-theme',t)}catch(e){}</script>
+  <!-- FONTS: Google Fonts (Sora + Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap"
+    rel="stylesheet">
+  <!-- CSS: Bootstrap 5 + custom theme (assets/css/style.css) -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="blog">
+  <!-- HEADER / NAVBAR: main.js yahan menu banata hai (main.js > SECTION 5) -->
+  <header id="site-header"></header>
+  <main id="main">
+
+    <section class="bg-surface">
+      <div class="container">
+        <!-- SECTION 1: PAGE TITLE BANNER -->
+        <h1>Blog</h1>
+        <p class="lead mt-3 col-lg-8">Practical advice on running a business with better software.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <!-- SECTION 2: BLOG CARDS LIST (main.js > POSTS data) -->
+        <div class="row g-4" data-blog></div>
+        <!-- SECTION 3: PAGINATION (abhi static, 1 page) -->
+        <nav class="mt-5" aria-label="Blog pages">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+            <li class="page-item disabled"><span class="page-link">Next</span></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER: contact form + footer yahan aata hai (main.js > SECTION 6) -->
+  <div id="site-footer"></div>
+  <!-- JS: Bootstrap bundle, phir main.js (saara dynamic content yahan se) -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

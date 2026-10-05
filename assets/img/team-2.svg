@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Team member avatar 2">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00b3a8"/><stop offset="1" stop-color="#0b3b52"/></linearGradient></defs>
+  <rect width="200" height="200" fill="url(#bg)"/>
+  
+  <path d="M26 200 C26 152 68 136 100 136 C132 136 174 152 174 200 Z" fill="#0f766e"/>
+  
+  <rect x="87" y="112" width="26" height="30" rx="8" fill="#d49f78"/>
+  <path d="M82 138 L100 160 L118 138 Z" fill="#ccfbf1"/>
+  <ellipse cx="100" cy="92" rx="34" ry="38" fill="#e8b894"/>
+  <ellipse cx="66.5" cy="96" rx="5" ry="8" fill="#e8b894"/><ellipse cx="133.5" cy="96" rx="5" ry="8" fill="#e8b894"/>
+  <path d="M64 90 C58 52 90 42 108 46 C134 50 142 70 136 90 C128 72 112 64 100 64 C84 64 70 74 64 90 Z" fill="#2b1d14"/>
+  <circle cx="88" cy="93" r="3.6" fill="#1b1b1f"/><circle cx="112" cy="93" r="3.6" fill="#1b1b1f"/>
+  <path d="M91 108 Q100 116 109 108" fill="none" stroke="#7a3b2e" stroke-width="3" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1b1f" stroke-width="3"><circle cx="88" cy="93" r="11"/><circle cx="112" cy="93" r="11"/><path d="M99 93 H101"/></g>
+</svg>
